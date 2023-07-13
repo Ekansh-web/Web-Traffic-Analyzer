@@ -1,0 +1,41 @@
+
+.one_line{
+   height:0px;
+  width:1px;
+  border-bottom:1px solid #cb202d;
+  animation: increase 8s infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes increase {
+    50%{width: 100%;}
+    100%{width: 0%;}
+}
+
+.centered{
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    font-size: 65px;
+    color: #F1C40F;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: sofia;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid red;
+    border-radius: 50px 20px;
+    transform: translate(-50%, -50%);
+}
+
+.for_head{
+    color: white;
+    background-color: #cb202d;
+    font-family: sofia;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid #F1C40F;
+    border-radius: 50px 20px;
+}
+
+
+
